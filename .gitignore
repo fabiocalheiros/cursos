@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+rocketseat/huntweb/node_modules
+rocketseat/rocketfy/node_modules
+udemy/react-ninja/m01/learning-props/node_modules
+udemy/github-app/node_modules
+udemy/learning-tests/node_modules
+rocketseat/omnistack8/backend/node_modules
+rocketseat/omnistack8/frontend/node_modules
+estudos/stock/node_modules
+rocketseat/curso-es6/node_modules
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
